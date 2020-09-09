@@ -1,0 +1,56 @@
+/* General Styles */
+
+main {
+    margin-top: 60px;
+  }
+
+main h1 {
+   margin: 0 10px;
+   text-align: center;
+   font-size: 42px;
+   font-family: "Roboto Mono", sans-serif;
+}
+
+main p {
+    font-family: 'Roboto', sans-serif;
+}
+
+main h2, h3 {
+    font-family: 'Roboto Mono';
+}
+
+h2 {
+
+}
+
+
+
+/* Groups & Items  (Mobile First) */
+
+.group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .item-double {
+    flex: 2;
+    margin: 10px;
+  }
+
+  /* Groups & Items  (Desktop) */
+
+@media all and (min-width: 800px) {
+    section {
+      padding: 0 10%;
+    }
+  
+    .group {
+      flex-direction: row;
+    }
+  }
