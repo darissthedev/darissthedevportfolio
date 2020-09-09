@@ -9,9 +9,21 @@
     <link href="main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+  
     <main>
-        <!-- Intro Section -->
+       
         <h1>DarissTheDev Portfolio</h1>
+        <header>
+          <nav>
+            <ul>
+              <li><a  href="#">Home</a></li>
+              <li><a  href="#">About</a></li>
+              <li><a  href="#">Portfolio</a></li>
+              <li><a  href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <!-- Intro Section -->
         <section>
             <div class="group">
               <div class="item">
@@ -32,17 +44,17 @@
         <div class="group">
           <div class="item">
             <img src="" alt="">
-            <h3>Team</h3>
+            <h3>Passion</h3>
             <p>Tofu pok pok man bun meditation craft beer intelligentsia, schlitz deep v iPhone woke mixtape actually. Subway tile tacos artisan listicle polaroid gluten-free freegan mixtape meditation pabst adaptogen.</p>
           </div>
           <div class="item">
             <img src="" alt="">
-            <h3>Technology</h3>
+            <h3>Team</h3>
             <p>Af semiotics tacos meditation. Vegan tilde fam cloud bread mumblecore +1. +1 coloring book adaptogen lumbersexual photo booth shaman viral yuccie.</p>
           </div>
             <div class="item">
               <img src="" alt="">
-              <h3>Thinkful</h3>
+              <h3>Mission</h3>
               <p>Roof party four dollar toast forage bicycle rights mumblecore sustainable vaporware bespoke post-ironic.</p>
           </div>
         </div>
@@ -71,12 +83,28 @@
 
       <!-- Contact Section -->
       <section>
+      
           <div class="group">
               <div class="item">
                   <h2>Contact</h2>
             <a href="mailto:darissharris@gmail.com"><p>Email</p></a>
             <a href="https://github.com/darissthedev"><p>GitHub</p></a>
             <a href="https://www.linkedin.com/in/dariss-harris-10337611/"><p>LinkedIn</p></a>
+
+            <form class="item">
+              <label for="user-name"> Full Name: </label>
+              <input id="user-name" type="text" name="user-name" required />
+
+              <label for="email">Email: </label>
+              <input id="email" autofocus="on" type="text" name="email" required />
+
+              <label for="form-message">Your Message: </label>
+              <textarea id="form-message" type="text" name="form-message" maxlength="550" /></textarea>
+
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+              
+            </form>
             
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36190.61832328479!2d-105.00449138533452!3d39.7279261040353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1585761954616!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
             </div>

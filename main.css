@@ -4,6 +4,36 @@ main {
     margin-top: 60px;
   }
 
+/* Main Header Styling with Nav */
+
+  main header {
+    margin-bottom: 40px;
+  }
+
+  main header nav {
+    display: flex;
+    justify-content: center;
+}
+
+main header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+main header nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    font-family: "Roboto", sans-serif;
+}
+
+main header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+/* Main H1, H2, H3 & P Text Styling */
+
 main h1 {
    margin: 0 10px;
    text-align: center;
@@ -16,12 +46,55 @@ main p {
 }
 
 main h2, h3 {
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto Mono', sans-serif;
 }
 
 h2 {
 
 }
+
+/* Form Styling with Map */
+
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+form input [type=text] {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+form textarea {
+  width: 100%;
+  height: 8.75rem;
+  font-size: 16px;
+  margin-bottom: 20px;
+
+}
+
+form button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 0;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 16px;
+  background: #000;
+  color: #fff;
+  margin: 0 8px 10px 0;
+/* how would I get my buttons to row-reverse (to be located on left-side of form? */
+}
+
+iframe {
+  width: 100%;
+}
+
 
 
 
