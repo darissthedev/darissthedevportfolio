@@ -32,6 +32,12 @@ main header nav ul li:last-child a {
     margin-right: 0;
 }
 
+img {
+  display:flex;
+  width: 100%;
+  justify-content: center;
+}
+
 /* Main H1, H2, H3 & P Text Styling */
 
 main h1 {
@@ -43,6 +49,7 @@ main h1 {
 
 main p {
     font-family: 'Roboto', sans-serif;
+    width: 100%;
 }
 
 main h2, h3 {
@@ -100,7 +107,7 @@ iframe {
 
 .group {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-bottom: 100px;
   }
   
