@@ -1,2 +1,2 @@
 # darissthedevportfolio
-software engineer portfolio
+Thinkful - software engineer portfolio
