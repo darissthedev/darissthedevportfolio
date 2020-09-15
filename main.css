@@ -67,9 +67,25 @@ main p {
 main h2, h3 {
     font-family: 'Roboto Mono', sans-serif;
 }
+/* unvisited link */
+a:link {
+  color: #000;
+  text-decoration: none;
+  font-family: 'Roboto';
+}
 
-a li :hover{
+/* visited link */
+a:visited {
+  color: #000;
+}
+
+/* mouse over link */
+a:hover{
   color: #6699CC;
+}
+/* selected link */
+a:active {
+  color: #000;
 }
 
 
