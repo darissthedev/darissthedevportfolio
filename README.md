@@ -1,2 +1,3 @@
 # darissthedevportfolio
-Thinkful - software engineer portfolio
+Thinkful - Full-Stack Developer portfolio
+https://darissthedev.github.io/darissthedevportfolio/
